@@ -1,0 +1,264 @@
+
+body{
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    font-size: 4em;
+}
+
+h4{
+    font-size: 2em;
+}
+/*Conteinermedio*/
+
+.conteinermedio{
+    max-width: 1400px;
+    margin: auto;
+    display: grid;
+    gap: 50px;
+}
+
+.productos{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: #d00000;
+}
+
+.productos:hover{
+    background-color: #d00000;
+}
+
+.hero1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("./IMG/FOTO\ 2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("./IMG/FOTO\ 1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("./IMG/FOTO\ 3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/*quienes somos*/
+
+.quienessomos__conteiner{
+    text-align: center;
+    padding: 200px 12px;
+}
+    
+/*Menu*/
+
+header{
+    width: 100%;
+    height: 200%;
+}
+
+h1{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 10px 0px 10px 100px;
+    width: 100%;
+}
+
+
+.navmenu{
+    margin: 0%;
+    width: 100%;
+    background-color: #d00000;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-items: center
+}
+
+.navmenuenlace{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    grid-column: 4 / 7;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+    font-size: 1em;
+    max-width: 1400px;
+}
+
+li{
+    list-style: none;
+}
+
+.conteiner{
+    display: grid;
+    grid-template-columns: repeat(3rf, 1rf);
+}
+
+.imagenes{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/*CARDS*/
+
+.botoncards{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+}
+
+.cards{
+    margin: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1rf);
+    grid-gap: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards > article{
+    background: #d00000;
+    border: none;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    text-align: center;
+    width: 400px;
+    height: 600px;
+    transition: transform .3s;
+}
+
+.cards > article:hover{
+    transform: translate(5px);
+    box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3);
+}
+
+.texto{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0 20px 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    padding: 10px;
+}
+
+.texto h3{
+    text-transform: uppercase;
+}
+
+.texto button{
+    background: white;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-weight: 600;
+    text-transform: uppercase;
+     cursor: pointer;
+}
+
+/*quienessomos*/
+
+.textoquienessomos{
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.textoquienessomostitulo{
+    text-align: center;
+    color: #d00000;
+    font-size: 3em;
+}
+
+.textoquienessomosparrafo{
+    font-size: 1.5em;
+}
+
+.quienessomos__conteiner{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.quienessomosimg{
+    background-image: url(./IMG/Imagen\ 1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.footer{
+    background-color: #d00000;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    color: white;
+}
+
+
